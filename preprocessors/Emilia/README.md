@@ -4,7 +4,7 @@ This is the official code for the **Emilia** dataset, and the source code of the
 
 ### Pipeline
 
-0. Preprocess
+0. Preprocess: Audio normalization
 1. Source Separation: Long audio -> Long audio without BGM
 2. Generate Speaker Diarization: Speaker diarization of long audio to get medium-length single-speaker audio
 3. VAD (silero-vad): Short-length single-speaker audio
